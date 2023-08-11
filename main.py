@@ -169,9 +169,9 @@ if __name__ == "__main__":
                 repo_scores[repo_link] = analyze_complexity_with_gpt(repo_info)
                 print(repo_link,repo_scores[repo_link])
         # Display the results in the repo_scores dictionary
-            for repo_link, score in repo_scores.items():
-                st.write(f"Repository: {repo_link}")
-                st.write(f"Complexity Score: {score}")
+            # for repo_link, score in repo_scores.items():
+            #     st.write(f"Repository: {repo_link}")
+            #     st.write(f"Complexity Score: {score}")
                 
             # Find the repository link with the highest complexity score
             most_complex_repo_link = max(repo_scores, key=repo_scores.get)
