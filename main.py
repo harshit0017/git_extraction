@@ -34,14 +34,14 @@ def analyze_complexity_with_gpt(repo_detail):
         {"role": "system", "content": "analyze all the provided information and give a complexity score , the higher the score the more complex the repository is, the score should be between 1-100"},
         {"role": "system", "content": "only return a number between 1 to 100 no texts"},       
         {"role": "user", "content": "repo_id , description ,language, size ,stargazers_count ,watchers_count ,forks_count ,open_issues_count,line of code, contribution count, library used,commits count  "},
-        {"role": "assistant", "content": "consider all the factors and return complexity score, the higher the number the higher the complexity"},
+        {"role": "assistant", "content": "make observations check the complxity of language used see discription size and all other values provided and return complexity score, the higher the number the higher the complexity"},
         {"role": "user", "content": repo_detail}
     ]
 
 
     response = openai.ChatCompletion.create(
         model="gpt-4",
-        temperature=0.8,
+        temperature=0.4,
         messages=message
     )
     return response['choices'][0]['message']['content']
