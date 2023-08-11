@@ -177,7 +177,8 @@ if __name__ == "__main__":
             most_complex_repo_link = max(repo_scores, key=repo_scores.get)
 
             # Print the most complex repository link
-            st.write("Most Complex Repository:")
+            st.header("Most Complex Repository:")
             st.write(f"Repository: {most_complex_repo_link}")
             st.write(f"Complexity Score: {repo_scores[most_complex_repo_link]}")
-            
+            st.write(f"Repository: {repo_desc[most_complex_repo_link]}")
+            st.write("Welcome! I'm here to explain how we calculate GitHub repository complexity scores. This score reveals the repository's intricacy and activity. Here's the breakdown We analyze various aspects like size, popularity (stars, watchers, forks), and activity (open issues, commits). We also consider lines of code, contributions, and library usage. With these details, our AI computes a complexity score from 1 to 100. A higher score means a more intricate and active repository, while a lower score suggests simplicity.  Why care about this score? It's a handy tool for GitHub project evaluation. Get a quick grasp of complexity and engagement to decide if it suits your needs.  Feel free to share repository details for a complexity score. Remember, higher score = higher complexity! If you have questions, ask away.")
