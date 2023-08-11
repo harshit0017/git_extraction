@@ -1,0 +1,313 @@
+annotated-types==0.5.0
+backports.functools-lru-cache==1.6.4
+boltons==23.0.0
+brotlipy==0.7.0
+bs4==0.0.1
+chill==0.9.0
+colorama==0.4.6
+comtypes==1.2.0
+conda==23.3.1
+conda-package-handling==2.0.2
+flask-cors==4.0.0
+gtts==2.3.2
+gunicorn==20.1.0
+html5lib==1.1
+huggingface-hub==0.16.4
+inexactsearch==1.0.2
+ipykernel==6.22.0
+jsonpatch==1.32
+langchain==0.0.254
+ngrok==0.8.1
+nltk==3.8.1
+nvm==1.0.21
+openai==0.27.2
+python-dotenv==0.19.1
+pyttsx3==2.90
+streamlit==1.25.0
+watchdog==3.0.0
+pandas 
+# aiohttp==3.8.4 # Installed as dependency for langchain, openai
+# aiosignal==1.3.1 # Installed as dependency for aiohttp
+# altair==5.0.1 # Installed as dependency for streamlit
+# appnope==0.1.3 # Installed as dependency for ipykernel, ipython
+# asttokens==2.2.1 # Installed as dependency for stack-data
+# async-timeout==4.0.2 # Installed as dependency for aiohttp, langchain
+# attrs==23.1.0 # Installed as dependency for aiohttp, jsonschema, referencing
+# babel==2.12.1 # Installed as dependency for chill
+# backcall==0.2.0 # Installed as dependency for ipython
+# beautifulsoup4==4.12.2 # Installed as dependency for bs4
+# blessed==1.20.0 # Installed as dependency for nvm
+# blinker==1.6.2 # Installed as dependency for flask, streamlit
+# cachetools==5.3.1 # Installed as dependency for streamlit
+# catalogue==2.0.8 # Installed as dependency for srsly
+# certifi==2022.12.7 # Installed as dependency for requests
+# cffi==1.15.1 # Installed as dependency for brotlipy, cryptography
+# charset-normalizer==3.1.0 # Installed as dependency for aiohttp, requests
+# click==8.1.3 # Installed as dependency for flask, gtts, nltk, streamlit
+# comm==0.1.3 # Installed as dependency for ipykernel
+# conda-package-streaming==0.7.0 # Installed as dependency for conda-package-handling
+# contexttimer==0.3.3 # Installed as dependency for nvm
+# contourpy==1.0.7 # Installed as dependency for matplotlib
+# cryptography==40.0.2 # Installed as dependency for pyopenssl
+# cycler==0.11.0 # Installed as dependency for matplotlib
+# dataclasses-json==0.5.14 # Installed as dependency for langchain
+# debugpy==1.6.7 # Installed as dependency for ipykernel
+# decorator==5.1.1 # Installed as dependency for ipython, validators
+# docopt==0.6.2 # Installed as dependency for chill
+# et-xmlfile==1.1.0 # Installed as dependency for openpyxl
+# executing==1.2.0 # Installed as dependency for stack-data
+# filelock==3.12.2 # Installed as dependency for huggingface-hub, torch
+# flask==2.3.2 # Installed as dependency for chill, flask-cors, frozen-flask
+# flask-markdown==0.3 # Installed as dependency for chill
+# fonttools==4.39.3 # Installed as dependency for matplotlib
+# frozen-flask==0.18 # Installed as dependency for chill
+# frozenlist==1.3.3 # Installed as dependency for aiohttp, aiosignal
+# fsspec==2023.6.0 # Installed as dependency for huggingface-hub
+# gevent==23.7.0 # Installed as dependency for chill
+# gitdb==4.0.10 # Installed as dependency for gitpython
+# gitpython==3.1.31 # Installed as dependency for nvm, streamlit
+# greenlet==2.0.2 # Installed as dependency for gevent
+# humanfriendly==10.0 # Installed as dependency for nvm
+# humanize==4.7.0 # Installed as dependency for chill
+# idna==3.4 # Installed as dependency for requests, yarl
+# importlib-metadata==6.4.1 # Installed as dependency for streamlit
+# ipython==8.12.0 # Installed as dependency for ipykernel
+# itsdangerous==2.1.2 # Installed as dependency for flask
+# jedi==0.18.2 # Installed as dependency for ipython
+# jinja2==3.1.2 # Installed as dependency for altair, chill, flask, pydeck, torch
+# joblib==1.2.0 # Installed as dependency for nltk
+# jsonpointer==2.0 # Installed as dependency for jsonpatch
+# jsonschema==4.18.6 # Installed as dependency for altair
+# jsonschema-specifications==2023.7.1 # Installed as dependency for jsonschema
+# jupyter-client==8.2.0 # Installed as dependency for ipykernel
+# jupyter-core==5.3.0 # Installed as dependency for ipykernel, jupyter-client
+# kiwisolver==1.4.4 # Installed as dependency for matplotlib
+# langsmith==0.0.19 # Installed as dependency for langchain
+# markdown==3.4.4 # Installed as dependency for flask-markdown
+# markdown-it-py==3.0.0 # Installed as dependency for rich
+# markupsafe==2.1.3 # Installed as dependency for chill, jinja2, werkzeug
+# marshmallow==3.20.1 # Installed as dependency for dataclasses-json
+# matplotlib==3.7.1 # Installed as dependency for seaborn, wordcloud
+# matplotlib-inline==0.1.6 # Installed as dependency for ipykernel, ipython
+# mdurl==0.1.2 # Installed as dependency for markdown-it-py
+# mpmath==1.3.0 # Installed as dependency for sympy
+# multidict==6.0.4 # Installed as dependency for aiohttp, yarl
+# mypy-extensions==1.0.0 # Installed as dependency for typing-inspect
+# nest-asyncio==1.5.6 # Installed as dependency for ipykernel
+# networkx==3.1 # Installed as dependency for torch
+# numexpr==2.8.5 # Installed as dependency for langchain
+# numpy==1.24.2 # Installed as dependency for altair, contourpy, langchain, matplotlib, numexpr, pandas, pyarrow, pydeck, scipy, seaborn, streamlit, wordcloud
+# openapi-schema-pydantic==1.2.4 # Installed as dependency for langchain
+# packaging==23.1 # Installed as dependency for huggingface-hub, ipykernel, marshmallow, matplotlib, streamlit
+# pandas==2.0.3 # Installed as dependency for altair, nvm, seaborn, streamlit
+# parso==0.8.3 # Installed as dependency for jedi
+# pexpect==4.8.0 # Installed as dependency for ipython
+# pickleshare==0.7.5 # Installed as dependency for ipython
+# pillow==9.5.0 # Installed as dependency for matplotlib, streamlit, wordcloud
+# platformdirs==3.2.0 # Installed as dependency for jupyter-core
+# pluggy==1.0.0 # Installed as dependency for conda
+# prompt-toolkit==3.0.38 # Installed as dependency for ipython
+# protobuf==4.23.4 # Installed as dependency for streamlit
+# psutil==5.9.4 # Installed as dependency for ipykernel
+# ptyprocess==0.7.0 # Installed as dependency for pexpect
+# pure-eval==0.2.2 # Installed as dependency for stack-data
+# pyarrow==12.0.1 # Installed as dependency for streamlit
+# pycosat==0.6.4 # Installed as dependency for conda
+# pycparser==2.21 # Installed as dependency for cffi
+# pydantic==1.10.12 # Installed as dependency for langchain, langsmith, openapi-schema-pydantic
+# pydeck==0.8.0 # Installed as dependency for streamlit
+# pygments==2.15.0 # Installed as dependency for ipython, rich
+# pympler==1.0.1 # Installed as dependency for streamlit
+# pyobjc==9.2 # Installed as dependency for pyttsx3
+# pyobjc-core==9.2 # Installed as dependency for pyobjc, pyobjc-framework-accessibility, pyobjc-framework-accounts, pyobjc-framework-addressbook, pyobjc-framework-adservices, pyobjc-framework-adsupport, pyobjc-framework-applescriptkit, pyobjc-framework-applescriptobjc, pyobjc-framework-applicationservices, pyobjc-framework-apptrackingtransparency, pyobjc-framework-audiovideobridging, pyobjc-framework-authenticationservices, pyobjc-framework-automaticassessmentconfiguration, pyobjc-framework-automator, pyobjc-framework-avfoundation, pyobjc-framework-avkit, pyobjc-framework-avrouting, pyobjc-framework-backgroundassets, pyobjc-framework-businesschat, pyobjc-framework-calendarstore, pyobjc-framework-callkit, pyobjc-framework-cfnetwork, pyobjc-framework-classkit, pyobjc-framework-cloudkit, pyobjc-framework-cocoa, pyobjc-framework-collaboration, pyobjc-framework-colorsync, pyobjc-framework-contacts, pyobjc-framework-contactsui, pyobjc-framework-coreaudio, pyobjc-framework-coreaudiokit, pyobjc-framework-corebluetooth, pyobjc-framework-coredata, pyobjc-framework-corehaptics, pyobjc-framework-corelocation, pyobjc-framework-coremedia, pyobjc-framework-coremediaio, pyobjc-framework-coremidi, pyobjc-framework-coreml, pyobjc-framework-coremotion, pyobjc-framework-coreservices, pyobjc-framework-corespotlight, pyobjc-framework-coretext, pyobjc-framework-corewlan, pyobjc-framework-cryptotokenkit, pyobjc-framework-datadetection, pyobjc-framework-devicecheck, pyobjc-framework-dictionaryservices, pyobjc-framework-discrecording, pyobjc-framework-discrecordingui, pyobjc-framework-diskarbitration, pyobjc-framework-dvdplayback, pyobjc-framework-eventkit, pyobjc-framework-exceptionhandling, pyobjc-framework-executionpolicy, pyobjc-framework-extensionkit, pyobjc-framework-externalaccessory, pyobjc-framework-fileprovider, pyobjc-framework-fileproviderui, pyobjc-framework-findersync, pyobjc-framework-fsevents, pyobjc-framework-gamecenter, pyobjc-framework-gamecontroller, pyobjc-framework-gamekit, pyobjc-framework-gameplaykit, pyobjc-framework-healthkit, pyobjc-framework-imagecapturecore, pyobjc-framework-imserviceplugin, pyobjc-framework-inputmethodkit, pyobjc-framework-installerplugins, pyobjc-framework-instantmessage, pyobjc-framework-intents, pyobjc-framework-intentsui, pyobjc-framework-iobluetooth, pyobjc-framework-iobluetoothui, pyobjc-framework-iosurface, pyobjc-framework-ituneslibrary, pyobjc-framework-kernelmanagement, pyobjc-framework-latentsemanticmapping, pyobjc-framework-launchservices, pyobjc-framework-libdispatch, pyobjc-framework-libxpc, pyobjc-framework-linkpresentation, pyobjc-framework-localauthentication, pyobjc-framework-localauthenticationembeddedui, pyobjc-framework-mailkit, pyobjc-framework-mapkit, pyobjc-framework-mediaaccessibility, pyobjc-framework-medialibrary, pyobjc-framework-mediaplayer, pyobjc-framework-mediatoolbox, pyobjc-framework-metal, pyobjc-framework-metalfx, pyobjc-framework-metalkit, pyobjc-framework-metalperformanceshaders, pyobjc-framework-metalperformanceshadersgraph, pyobjc-framework-metrickit, pyobjc-framework-mlcompute, pyobjc-framework-modelio, pyobjc-framework-multipeerconnectivity, pyobjc-framework-naturallanguage, pyobjc-framework-netfs, pyobjc-framework-network, pyobjc-framework-networkextension, pyobjc-framework-notificationcenter, pyobjc-framework-opendirectory, pyobjc-framework-osakit, pyobjc-framework-oslog, pyobjc-framework-passkit, pyobjc-framework-pencilkit, pyobjc-framework-phase, pyobjc-framework-photos, pyobjc-framework-photosui, pyobjc-framework-preferencepanes, pyobjc-framework-pushkit, pyobjc-framework-quartz, pyobjc-framework-quicklookthumbnailing, pyobjc-framework-replaykit, pyobjc-framework-safariservices, pyobjc-framework-safetykit, pyobjc-framework-scenekit, pyobjc-framework-screencapturekit, pyobjc-framework-screensaver, pyobjc-framework-screentime, pyobjc-framework-scriptingbridge, pyobjc-framework-searchkit, pyobjc-framework-security, pyobjc-framework-securityfoundation, pyobjc-framework-securityinterface, pyobjc-framework-servicemanagement, pyobjc-framework-sharedwithyou, pyobjc-framework-sharedwithyoucore, pyobjc-framework-shazamkit, pyobjc-framework-social, pyobjc-framework-soundanalysis, pyobjc-framework-speech, pyobjc-framework-spritekit, pyobjc-framework-storekit, pyobjc-framework-syncservices, pyobjc-framework-systemconfiguration, pyobjc-framework-systemextensions, pyobjc-framework-threadnetwork, pyobjc-framework-uniformtypeidentifiers, pyobjc-framework-usernotifications, pyobjc-framework-usernotificationsui, pyobjc-framework-videosubscriberaccount, pyobjc-framework-videotoolbox, pyobjc-framework-virtualization, pyobjc-framework-vision, pyobjc-framework-webkit
+# pyobjc-framework-accessibility==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-accounts==9.2 # Installed as dependency for pyobjc, pyobjc-framework-cloudkit
+# pyobjc-framework-addressbook==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-adservices==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-adsupport==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-applescriptkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-applescriptobjc==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-applicationservices==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-apptrackingtransparency==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-audiovideobridging==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-authenticationservices==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-automaticassessmentconfiguration==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-automator==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-avfoundation==9.2 # Installed as dependency for pyobjc, pyobjc-framework-mediaplayer, pyobjc-framework-phase
+# pyobjc-framework-avkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-avrouting==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-backgroundassets==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-businesschat==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-calendarstore==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-callkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-cfnetwork==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-classkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-cloudkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-cocoa==9.2 # Installed as dependency for pyobjc, pyobjc-framework-accessibility, pyobjc-framework-accounts, pyobjc-framework-addressbook, pyobjc-framework-adservices, pyobjc-framework-adsupport, pyobjc-framework-applescriptkit, pyobjc-framework-applescriptobjc, pyobjc-framework-applicationservices, pyobjc-framework-apptrackingtransparency, pyobjc-framework-audiovideobridging, pyobjc-framework-authenticationservices, pyobjc-framework-automaticassessmentconfiguration, pyobjc-framework-automator, pyobjc-framework-avfoundation, pyobjc-framework-avkit, pyobjc-framework-avrouting, pyobjc-framework-backgroundassets, pyobjc-framework-businesschat, pyobjc-framework-calendarstore, pyobjc-framework-callkit, pyobjc-framework-cfnetwork, pyobjc-framework-classkit, pyobjc-framework-cloudkit, pyobjc-framework-collaboration, pyobjc-framework-colorsync, pyobjc-framework-contacts, pyobjc-framework-contactsui, pyobjc-framework-coreaudio, pyobjc-framework-coreaudiokit, pyobjc-framework-corebluetooth, pyobjc-framework-coredata, pyobjc-framework-corehaptics, pyobjc-framework-corelocation, pyobjc-framework-coremedia, pyobjc-framework-coremediaio, pyobjc-framework-coremidi, pyobjc-framework-coreml, pyobjc-framework-coremotion, pyobjc-framework-corespotlight, pyobjc-framework-coretext, pyobjc-framework-corewlan, pyobjc-framework-cryptotokenkit, pyobjc-framework-datadetection, pyobjc-framework-devicecheck, pyobjc-framework-discrecording, pyobjc-framework-discrecordingui, pyobjc-framework-diskarbitration, pyobjc-framework-dvdplayback, pyobjc-framework-eventkit, pyobjc-framework-exceptionhandling, pyobjc-framework-executionpolicy, pyobjc-framework-extensionkit, pyobjc-framework-externalaccessory, pyobjc-framework-fileprovider, pyobjc-framework-findersync, pyobjc-framework-fsevents, pyobjc-framework-gamecenter, pyobjc-framework-gamecontroller, pyobjc-framework-gamekit, pyobjc-framework-gameplaykit, pyobjc-framework-healthkit, pyobjc-framework-imagecapturecore, pyobjc-framework-imserviceplugin, pyobjc-framework-inputmethodkit, pyobjc-framework-installerplugins, pyobjc-framework-instantmessage, pyobjc-framework-intents, pyobjc-framework-iobluetooth, pyobjc-framework-iosurface, pyobjc-framework-ituneslibrary, pyobjc-framework-kernelmanagement, pyobjc-framework-latentsemanticmapping, pyobjc-framework-linkpresentation, pyobjc-framework-localauthentication, pyobjc-framework-localauthenticationembeddedui, pyobjc-framework-mailkit, pyobjc-framework-mapkit, pyobjc-framework-mediaaccessibility, pyobjc-framework-medialibrary, pyobjc-framework-mediatoolbox, pyobjc-framework-metal, pyobjc-framework-metalkit, pyobjc-framework-metrickit, pyobjc-framework-mlcompute, pyobjc-framework-modelio, pyobjc-framework-multipeerconnectivity, pyobjc-framework-naturallanguage, pyobjc-framework-netfs, pyobjc-framework-network, pyobjc-framework-networkextension, pyobjc-framework-notificationcenter, pyobjc-framework-opendirectory, pyobjc-framework-osakit, pyobjc-framework-oslog, pyobjc-framework-passkit, pyobjc-framework-pencilkit, pyobjc-framework-photos, pyobjc-framework-photosui, pyobjc-framework-preferencepanes, pyobjc-framework-pushkit, pyobjc-framework-quartz, pyobjc-framework-quicklookthumbnailing, pyobjc-framework-replaykit, pyobjc-framework-safariservices, pyobjc-framework-safetykit, pyobjc-framework-scenekit, pyobjc-framework-screensaver, pyobjc-framework-screentime, pyobjc-framework-scriptingbridge, pyobjc-framework-security, pyobjc-framework-securityfoundation, pyobjc-framework-securityinterface, pyobjc-framework-servicemanagement, pyobjc-framework-sharedwithyoucore, pyobjc-framework-shazamkit, pyobjc-framework-social, pyobjc-framework-soundanalysis, pyobjc-framework-speech, pyobjc-framework-spritekit, pyobjc-framework-storekit, pyobjc-framework-syncservices, pyobjc-framework-systemconfiguration, pyobjc-framework-systemextensions, pyobjc-framework-threadnetwork, pyobjc-framework-uniformtypeidentifiers, pyobjc-framework-usernotifications, pyobjc-framework-usernotificationsui, pyobjc-framework-videosubscriberaccount, pyobjc-framework-videotoolbox, pyobjc-framework-virtualization, pyobjc-framework-vision, pyobjc-framework-webkit
+# pyobjc-framework-collaboration==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-colorsync==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-contacts==9.2 # Installed as dependency for pyobjc, pyobjc-framework-contactsui
+# pyobjc-framework-contactsui==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-coreaudio==9.2 # Installed as dependency for pyobjc, pyobjc-framework-avfoundation, pyobjc-framework-coreaudiokit
+# pyobjc-framework-coreaudiokit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-corebluetooth==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-coredata==9.2 # Installed as dependency for pyobjc, pyobjc-framework-cloudkit, pyobjc-framework-syncservices
+# pyobjc-framework-corehaptics==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-corelocation==9.2 # Installed as dependency for pyobjc, pyobjc-framework-cloudkit, pyobjc-framework-mapkit
+# pyobjc-framework-coremedia==9.2 # Installed as dependency for pyobjc, pyobjc-framework-avfoundation, pyobjc-framework-oslog, pyobjc-framework-screencapturekit, pyobjc-framework-videotoolbox
+# pyobjc-framework-coremediaio==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-coremidi==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-coreml==9.2 # Installed as dependency for pyobjc, pyobjc-framework-vision
+# pyobjc-framework-coremotion==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-coreservices==9.2 # Installed as dependency for pyobjc, pyobjc-framework-dictionaryservices, pyobjc-framework-launchservices, pyobjc-framework-searchkit
+# pyobjc-framework-corespotlight==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-coretext==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-corewlan==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-cryptotokenkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-datadetection==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-devicecheck==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-dictionaryservices==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-discrecording==9.2 # Installed as dependency for pyobjc, pyobjc-framework-discrecordingui
+# pyobjc-framework-discrecordingui==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-diskarbitration==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-dvdplayback==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-eventkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-exceptionhandling==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-executionpolicy==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-extensionkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-externalaccessory==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-fileprovider==9.2 # Installed as dependency for pyobjc, pyobjc-framework-fileproviderui
+# pyobjc-framework-fileproviderui==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-findersync==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-fsevents==9.2 # Installed as dependency for pyobjc, pyobjc-framework-coreservices
+# pyobjc-framework-gamecenter==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-gamecontroller==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-gamekit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-gameplaykit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-healthkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-imagecapturecore==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-imserviceplugin==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-inputmethodkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-installerplugins==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-instantmessage==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-intents==9.2 # Installed as dependency for pyobjc, pyobjc-framework-intentsui
+# pyobjc-framework-intentsui==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-iobluetooth==9.2 # Installed as dependency for pyobjc, pyobjc-framework-iobluetoothui
+# pyobjc-framework-iobluetoothui==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-iosurface==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-ituneslibrary==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-kernelmanagement==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-latentsemanticmapping==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-launchservices==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-libdispatch==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-libxpc==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-linkpresentation==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-localauthentication==9.2 # Installed as dependency for pyobjc, pyobjc-framework-localauthenticationembeddedui
+# pyobjc-framework-localauthenticationembeddedui==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-mailkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-mapkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-mediaaccessibility==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-medialibrary==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-mediaplayer==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-mediatoolbox==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-metal==9.2 # Installed as dependency for pyobjc, pyobjc-framework-metalfx, pyobjc-framework-metalkit, pyobjc-framework-metalperformanceshaders
+# pyobjc-framework-metalfx==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-metalkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-metalperformanceshaders==9.2 # Installed as dependency for pyobjc, pyobjc-framework-metalperformanceshadersgraph
+# pyobjc-framework-metalperformanceshadersgraph==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-metrickit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-mlcompute==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-modelio==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-multipeerconnectivity==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-naturallanguage==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-netfs==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-network==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-networkextension==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-notificationcenter==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-opendirectory==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-osakit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-oslog==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-passkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-pencilkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-phase==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-photos==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-photosui==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-preferencepanes==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-pushkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-quartz==9.2 # Installed as dependency for pyobjc, pyobjc-framework-accessibility, pyobjc-framework-applicationservices, pyobjc-framework-avfoundation, pyobjc-framework-avkit, pyobjc-framework-coretext, pyobjc-framework-gamekit, pyobjc-framework-instantmessage, pyobjc-framework-linkpresentation, pyobjc-framework-mapkit, pyobjc-framework-medialibrary, pyobjc-framework-modelio, pyobjc-framework-oslog, pyobjc-framework-quicklookthumbnailing, pyobjc-framework-safetykit, pyobjc-framework-scenekit, pyobjc-framework-spritekit, pyobjc-framework-videotoolbox, pyobjc-framework-vision
+# pyobjc-framework-quicklookthumbnailing==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-replaykit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-safariservices==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-safetykit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-scenekit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-screencapturekit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-screensaver==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-screentime==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-scriptingbridge==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-searchkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-security==9.2 # Installed as dependency for pyobjc, pyobjc-framework-localauthentication, pyobjc-framework-securityfoundation, pyobjc-framework-securityinterface
+# pyobjc-framework-securityfoundation==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-securityinterface==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-servicemanagement==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-sharedwithyou==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-sharedwithyoucore==9.2 # Installed as dependency for pyobjc, pyobjc-framework-sharedwithyou
+# pyobjc-framework-shazamkit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-social==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-soundanalysis==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-speech==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-spritekit==9.2 # Installed as dependency for pyobjc, pyobjc-framework-gameplaykit
+# pyobjc-framework-storekit==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-syncservices==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-systemconfiguration==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-systemextensions==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-threadnetwork==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-uniformtypeidentifiers==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-usernotifications==9.2 # Installed as dependency for pyobjc, pyobjc-framework-usernotificationsui
+# pyobjc-framework-usernotificationsui==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-videosubscriberaccount==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-videotoolbox==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-virtualization==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-vision==9.2 # Installed as dependency for pyobjc
+# pyobjc-framework-webkit==9.2 # Installed as dependency for pyobjc
+# pyparsing==3.0.9 # Installed as dependency for matplotlib
+# python-dateutil==2.8.2 # Installed as dependency for jupyter-client, matplotlib, pandas, streamlit
+# pytz==2023.3 # Installed as dependency for nvm, pandas
+# pytz-deprecation-shim==0.1.0.post0 # Installed as dependency for tzlocal
+# pyyaml==6.0.1 # Installed as dependency for chill, huggingface-hub, langchain
+# pyzmq==25.0.2 # Installed as dependency for ipykernel, jupyter-client
+# referencing==0.30.2 # Installed as dependency for jsonschema, jsonschema-specifications
+# regex==2023.3.23 # Installed as dependency for nltk
+# requests==2.31.0 # Installed as dependency for conda, conda-package-streaming, gtts, huggingface-hub, langchain, langsmith, openai, speechrecognition, streamlit
+# rich==13.5.2 # Installed as dependency for streamlit
+# rpds-py==0.9.2 # Installed as dependency for jsonschema, referencing
+# ruamel.yaml==0.17.21 # Installed as dependency for conda
+# ruamel.yaml.clib==0.2.7 # Installed as dependency for ruamel.yaml
+# silpa-common==0.3 # Installed as dependency for inexactsearch, soundex
+# six==1.16.0 # Installed as dependency for asttokens, blessed, html5lib, python-dateutil, tensorflow-metal
+# smmap==5.0.0 # Installed as dependency for gitdb
+# soundex==1.1.3 # Installed as dependency for inexactsearch
+# soupsieve==2.4.1 # Installed as dependency for beautifulsoup4
+# sqlalchemy==2.0.19 # Installed as dependency for langchain
+# srsly==2.4.6 # Installed as dependency for nvm
+# stack-data==0.6.2 # Installed as dependency for ipython
+# sympy==1.12 # Installed as dependency for torch
+# tenacity==8.2.2 # Installed as dependency for langchain, streamlit
+# toml==0.10.2 # Installed as dependency for streamlit
+# toolz==0.12.0 # Installed as dependency for altair
+# tornado==6.2 # Installed as dependency for ipykernel, jupyter-client, streamlit
+# tqdm==4.65.0 # Installed as dependency for conda, huggingface-hub, nltk, openai
+# traitlets==5.9.0 # Installed as dependency for comm, ipykernel, ipython, jupyter-client, jupyter-core, matplotlib-inline
+# typing-extensions==4.7.1 # Installed as dependency for altair, huggingface-hub, pydantic, pydantic-core, sqlalchemy, streamlit, torch, typing-inspect
+# typing-inspect==0.9.0 # Installed as dependency for dataclasses-json
+# tzdata==2023.3 # Installed as dependency for pandas, pytz-deprecation-shim
+# tzlocal==4.3.1 # Installed as dependency for nvm, streamlit
+# urllib3==1.26.15 # Installed as dependency for requests
+# validators==0.20.0 # Installed as dependency for streamlit
+# wcwidth==0.2.6 # Installed as dependency for blessed, prompt-toolkit
+# webencodings==0.5.1 # Installed as dependency for html5lib
+# werkzeug==2.3.6 # Installed as dependency for flask
+# yarl==1.9.2 # Installed as dependency for aiohttp
+# zipp==3.15.0 # Installed as dependency for importlib-metadata
+# zope.event==5.0 # Installed as dependency for gevent
+# zope.interface==6.0 # Installed as dependency for gevent
+# zstandard==0.19.0 # Installed as dependency for conda-package-streaming
