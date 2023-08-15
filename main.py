@@ -42,7 +42,7 @@ def analyze_complexity_with_gpt(repo_detail):
     response = openai.ChatCompletion.create(
         model="gpt-4",
         temperature=0.4,
-        max_token=2,
+        max_tokens=2,
         messages=message
     )
     return response['choices'][0]['message']['content']
