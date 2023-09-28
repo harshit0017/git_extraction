@@ -40,7 +40,7 @@ def analyze_complexity_with_gpt(repo_detail):
 
 
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo-16k",
         temperature=0.4,
         max_tokens=2,
         messages=message
